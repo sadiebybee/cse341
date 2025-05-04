@@ -1,0 +1,23 @@
+{
+    "contact": {
+      "firstName": "Abby",
+      "lastName": "Bybee",
+      "email": "abbybybee@gmail.com",
+      "favoriteColor": "Yellow",
+      "birthday": "12/07/01"
+    },
+    "contact2": {
+      "firstName": "Ethan",
+      "lastName": "Bybee",
+      "email": "e.bybee@gmai.com",
+      "favoriteColor": "Purple",
+      "birthday": "04/21/04"
+    },
+    "contact3": {
+      "firstName": "Jessica",
+      "lastName": "Bybee",
+      "email": "jessicabybee@gmail.com",
+      "favoriteColor": "Pink",
+      "birthday": "02/24/10"
+    }
+  }
