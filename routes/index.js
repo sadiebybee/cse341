@@ -1,8 +1,17 @@
-const router = require('express').Router();
+// const router = require('express').Router();
+import { Router } from "express";
+import { contactRoutes } from "./contacts.js";
+// const contactRoutes = require('./contacts');
 
-const myController = require('../controllers');
+const router = Router();
 
-router.use('/contacts', require('./contacts'));
-router.get('/', myController.awesomeFunction);
+// const myController = require('../controllers');
 
-module.exports = router;
+import { awesomeFunction } from "../controllers/index.js";
+
+router.use("/contacts", contactRoutes);
+router.get("/", awesomeFunction);
+
+// module.exports = router;
+
+export {router};
