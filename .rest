@@ -35,3 +35,46 @@ content-type: application/json
 ###
 # DELETE 
 DELETE http://localhost:3000/contacts/681e54dfa14fe3f26b0cec1e HTTP/1.1
+
+
+
+### RENDER
+GET  https://cse341-15li.onrender.com HTTP/1.1
+
+###
+GET  https://cse341-15li.onrender.com/contacts/ HTTP/1.1
+
+###
+GET https://cse341-15li.onrender.com/contacts/681e5510a14fe3f26b0cec1f HTTP/1.1
+
+###
+# POST 
+POST https://cse341-15li.onrender.com/contacts HTTP/1.1
+content-type: application/json
+
+{
+    "firstName": "Abby",
+    "lastName": "Bybee",
+    "email": "abbybybee@gmail.com",
+    "favoriteColor": "Yellow",
+    "birthday": "12/07/01"
+}
+
+###
+# PUT
+PUT https://cse341-15li.onrender.com/contacts/682644daab9f93904415e455 HTTP/1.1
+content-type: application/json
+
+{
+    "firstName": "Abby",
+    "lastName": "Bybee",
+    "email": "abbybybee@gmail.com",
+    "favoriteColor": "Pink",
+    "birthday": "12/07/01"
+}
+
+###
+# DELETE 
+DELETE https://cse341-15li.onrender.com/contacts/682644daab9f93904415e455 HTTP/1.1
+
+
