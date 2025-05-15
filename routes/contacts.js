@@ -1,17 +1,13 @@
-// const express = require('express');
-// const router = express.Router();
-import { Router } from "express";
-// import router from '.';
-var contactRoutes = Router();
+const express = require('express');
+const contactRoutes = express.Router();
 
-// const contactsController = require('../controllers/contacts');
-import {
+const {
   getAll,
   getSingle,
   createContact,
   updateContact,
   deleteContact,
-} from "../controllers/contacts.js";
+} = require( "../controllers/contacts.js" );
 
 contactRoutes.get("/", getAll);
 
@@ -23,6 +19,4 @@ contactRoutes.put("/:id", updateContact);
 
 contactRoutes.delete("/:id", deleteContact);
 
-// module.exports = router;
-
-export { contactRoutes };
+module.exports = contactRoutes;

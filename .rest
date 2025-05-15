@@ -8,6 +8,30 @@ GET http://localhost:3000/contacts/681e5510a14fe3f26b0cec1f HTTP/1.1
 
 ###
 # POST 
+POST http://localhost:3000/contacts HTTP/1.1
+content-type: application/json
+
+{
+    "firstName": "Abby",
+    "lastName": "Bybee",
+    "email": "abbybybee@gmail.com",
+    "favoriteColor": "Yellow",
+    "birthday": "12/07/01"
+}
+
+###
+# PUT
+PUT http://localhost:3000/contacts/681e54dfa14fe3f26b0cec1e HTTP/1.1
+content-type: application/json
+
+{
+    "firstName": "Abby",
+    "lastName": "Bybee",
+    "email": "abbybybee@gmail.com",
+    "favoriteColor": "Pink",
+    "birthday": "12/07/01"
+}
 
 ###
 # DELETE 
+DELETE http://localhost:3000/contacts/681e54dfa14fe3f26b0cec1e HTTP/1.1
