@@ -12,29 +12,29 @@ POST http://localhost:3000/contacts HTTP/1.1
 content-type: application/json
 
 {
-    "firstName": "Abby",
+    "firstName": "Makayla",
     "lastName": "Bybee",
-    "email": "abbybybee@gmail.com",
-    "favoriteColor": "Yellow",
-    "birthday": "12/07/01"
+    "email": "test@gmail.com",
+    "favoriteColor": "Green",
+    "birthday": "04/19/2012"
 }
 
 ###
 # PUT
-PUT http://localhost:3000/contacts/681e54dfa14fe3f26b0cec1e HTTP/1.1
+PUT http://localhost:3000/contacts/6826a9b07330d3c768b434c6 HTTP/1.1
 content-type: application/json
 
 {
-    "firstName": "Abby",
+    "firstName": "Makayla",
     "lastName": "Bybee",
-    "email": "abbybybee@gmail.com",
-    "favoriteColor": "Pink",
-    "birthday": "12/07/01"
+    "email": "test@gmail.com",
+    "favoriteColor": "Blue",
+    "birthday": "04/19/2012"
 }
 
 ###
 # DELETE 
-DELETE http://localhost:3000/contacts/681e54dfa14fe3f26b0cec1e HTTP/1.1
+DELETE http://localhost:3000/contacts/6826a9b07330d3c768b434c6 HTTP/1.1
 
 
 
@@ -53,28 +53,28 @@ POST https://cse341-15li.onrender.com/contacts HTTP/1.1
 content-type: application/json
 
 {
-    "firstName": "Abby",
+    "firstName": "Makayla",
     "lastName": "Bybee",
-    "email": "abbybybee@gmail.com",
-    "favoriteColor": "Yellow",
-    "birthday": "12/07/01"
+    "email": "test@gmail.com",
+    "favoriteColor": "Green",
+    "birthday": "04/19/2012"
 }
 
 ###
 # PUT
-PUT https://cse341-15li.onrender.com/contacts/682644daab9f93904415e455 HTTP/1.1
+PUT https://cse341-15li.onrender.com/contacts/6826a90d5d895f21d1d1fa0c HTTP/1.1
 content-type: application/json
 
 {
-    "firstName": "Abby",
+    "firstName": "Makayla",
     "lastName": "Bybee",
-    "email": "abbybybee@gmail.com",
-    "favoriteColor": "Pink",
-    "birthday": "12/07/01"
+    "email": "test@gmail.com",
+    "favoriteColor": "Blue",
+    "birthday": "04/19/2012"
 }
 
 ###
 # DELETE 
-DELETE https://cse341-15li.onrender.com/contacts/682644daab9f93904415e455 HTTP/1.1
+DELETE https://cse341-15li.onrender.com/contacts/6826a90d5d895f21d1d1fa0c HTTP/1.1
 
 
